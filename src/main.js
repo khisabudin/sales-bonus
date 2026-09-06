@@ -132,7 +132,3 @@ function analyzeSalesData(data, options) {
         bonus: +seller.bonus.toFixed(2)
 }));
 }
-analyzeSalesData(data, {
-    calculateRevenue: calculateSimpleRevenue,
-    calculateBonus: calculateBonusByProfit
-});
